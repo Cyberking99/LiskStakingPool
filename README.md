@@ -28,7 +28,7 @@ npx hardhat verify --network lisk-sepolia contract_address
 
 Example:
 ```bash
-npx hardhat verify --network lisk-sepolia 0x18Dc055ed8D98573D4518EE89EF50d6F4B74B528
+npx hardhat verify --constructor-args arguments.ts --network lisk-sepolia 0x18Dc055ed8D98573D4518EE89EF50d6F4B74B528
 ```
 
 ## Deployed Contract Addresses
